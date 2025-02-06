@@ -1,0 +1,8 @@
+prefix=/home/wqf/4LO_code/devel
+
+Name: kiss_icp
+Description: Description of kiss_icp
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
