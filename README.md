@@ -1,14 +1,10 @@
 # ALO: An Adaptive LiDAR Odometry Approach for Dynamic Environments
  
-简短的描述，说明项目的用途和目标。
- 
-## 目录
+## Catalog
  
 - [Introduction](#Introduction)
 - [Install](#Install)
-- [使用方法](#使用方法)
-- [贡献](#贡献)
-- [许可证](#许可证)
+- [Rusult](#Rusult)
  
 ## Introduction
  
@@ -27,4 +23,4 @@ roslaunch ALO odometry.launch
 rosbag play [topic]
 ```
 
-## 贡献
+## Rusult
