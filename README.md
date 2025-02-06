@@ -12,16 +12,21 @@
  
 ## 简介
  
-详细描述你的项目是什么，解决了什么问题，它的主要功能和优势。
+LiDAR captures environmental information to enable precise spatial localization and mapping. However, traditional LiDAR odometry methods mainly depend on static environmental features for positioning and mapping, limiting adaptability in dynamic settings and reducing pose estimation accuracy. To overcome this limitation, we propose ALO, a novel adaptive LiDAR odometry approach designed for dynamic environments. First, an adaptive constant velocity model predicts the expected motion trajectory, supplying prior pose information, while a first-in-first-out voxel grid manages the local map in dynamic conditions. Next, a linear system with dynamic weights based on point-surface residuals is established, minimizing the influence of dynamic features on pose estimation. Finally, the predicted prior pose serves as the initial value for adaptive Iterative Closest Point (ICP) registration, enhancing pose estimation accuracy and enabling real-time local map updates.
  
 ## 安装
  
 提供安装项目的步骤，例如：
  
 ```bash
-git clone https://github.com/你的用户名/你的项目.git
-cd 你的项目
-npm install # 如果你使用Node.js
+git clone https://github.com/qfwang23/ALO.git
+cd ALO
+mkdir src
+cd ..
+catkin_make
+source setup.bash
+roslaunch ALO odometry.launch
+rosbag play [topic]
 ```
 
 ## 贡献
