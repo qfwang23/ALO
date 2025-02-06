@@ -1,7 +1,6 @@
 # ALO: An Adaptive LiDAR Odometry Approach for Dynamic Environments
 
-![示例图片](C:\Users\汪奇锋\Desktop\ADE-LO(lot-j) (1)\fig1.pdf)
- 
+![示例图片](https://github.com/qfwang23/ALO.git/ALO/fig1.pdf)
 ## Catalog
  
 - [Introduction](#Introduction)
