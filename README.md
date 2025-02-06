@@ -43,7 +43,6 @@ rosbag play [topic]
   volume    = {8},
   number    = {2},
   year      = {2023},
-  codeurl   = {https://github.com/PRBonn/kiss-icp},
 }
 
 @article{chen2022direct,
