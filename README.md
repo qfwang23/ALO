@@ -32,4 +32,29 @@ rosbag play [topic]
 
 ![示例图片](https://github.com/qfwang23/ALO/blob/a821eeba42d03649c9a34c21c116e969c9f4e7f8/fig5.png)
 
+## Gratitude
+```bash
+@article{vizzo2023ral,
+  author    = {Vizzo, Ignacio and Guadagnino, Tiziano and Mersch, Benedikt and Wiesmann, Louis and Behley, Jens and Stachniss, Cyrill},
+  title     = {{KISS-ICP: In Defense of Point-to-Point ICP -- Simple, Accurate, and Robust Registration If Done the Right Way}},
+  journal   = {IEEE Robotics and Automation Letters (RA-L)},
+  pages     = {1029--1036},
+  doi       = {10.1109/LRA.2023.3236571},
+  volume    = {8},
+  number    = {2},
+  year      = {2023},
+  codeurl   = {https://github.com/PRBonn/kiss-icp},
+}
+
+@article{chen2022direct,
+  author={Kenny Chen and Brett T. Lopez and Ali-akbar Agha-mohammadi and Ankur Mehta},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Direct LiDAR Odometry: Fast Localization With Dense Point Clouds}, 
+  year={2022},
+  volume={7},
+  number={2},
+  pages={2000-2007},
+  doi={10.1109/LRA.2022.3142739}
+}
+```
 
