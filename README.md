@@ -13,12 +13,14 @@
 LiDAR captures environmental information to enable precise spatial localization and mapping. However, traditional LiDAR odometry methods mainly depend on static environmental features for positioning and mapping, limiting adaptability in dynamic settings and reducing pose estimation accuracy. To overcome this limitation, we propose ALO, a novel adaptive LiDAR odometry approach designed for dynamic environments. First, an adaptive constant velocity model predicts the expected motion trajectory, supplying prior pose information, while a first-in-first-out voxel grid manages the local map in dynamic conditions. Next, a linear system with dynamic weights based on point-surface residuals is established, minimizing the influence of dynamic features on pose estimation. Finally, the predicted prior pose serves as the initial value for adaptive Iterative Closest Point (ICP) registration, enhancing pose estimation accuracy and enabling real-time local map updates.
 
 ## Dependency
+```bash
 Ubuntu 18.04 or 20.04
 ROS Melodic（roscpp、std_msgs、sensor_msgs、geometry_msgs、pcl_ros）
 C++ 14
 CMake ≥ 3.16
 PCL≥ 1.10.0
 Eigen ≥ 3.3.7
+```
 
 ## Install
  
