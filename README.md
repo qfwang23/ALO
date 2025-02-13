@@ -57,7 +57,7 @@ rosbag play [topic]
   doi       = {10.1109/LRA.2023.3236571},
   volume    = {8},
   number    = {2},
-  year      = {2023},
+  year      = {2023}
 }
 
 @article{chen2022direct,
