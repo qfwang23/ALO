@@ -6,7 +6,7 @@
 - [Dependency](#Dependency)
 - [Install](#Install)
 - [Rusult](#Rusult)
-- [Gratitude ](#Gratitude)
+- [Acknowledgements ](#Acknowledgements)
  
 ## Introduction
  
@@ -43,7 +43,7 @@ rosbag play [topic]
 
 ![示例图片](https://github.com/qfwang23/ALO/blob/a821eeba42d03649c9a34c21c116e969c9f4e7f8/fig5.png)
 
-## Gratitude
+## Acknowledgements
 ```bash
 @article{vizzo2023ral,
   author    = {Vizzo, Ignacio and Guadagnino, Tiziano and Mersch, Benedikt and Wiesmann, Louis and Behley, Jens and Stachniss, Cyrill},
