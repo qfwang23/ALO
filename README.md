@@ -14,7 +14,7 @@
 LiDAR captures environmental information to enable precise spatial localization and mapping. However, traditional LiDAR odometry methods mainly depend on static environmental features for positioning and mapping, limiting adaptability in dynamic settings and reducing pose estimation accuracy. To overcome this limitation, we propose ALO, a novel adaptive LiDAR odometry approach designed for dynamic environments. First, an adaptive constant velocity model predicts the expected motion trajectory, supplying prior pose information, while a first-in-first-out voxel grid manages the local map in dynamic conditions. Next, a linear system with dynamic weights based on point-surface residuals is established, minimizing the influence of dynamic features on pose estimation. Finally, the predicted prior pose serves as the initial value for adaptive ICP registration, enhancing pose estimation accuracy and enabling real-time local map updates.
 
 ## Demo
-![示例图片]([https://github.com/qfwang23/ALO/blob/b20e13e008f5c0c39613f8e8ad7b2543110a44c5/fig3.png](https://github.com/qfwang23/ALO/blob/6aa048cc49058d78d20e694bbfcd3c419e20cf9a/demo.gif))
+![示例图片](https://github.com/qfwang23/ALO/blob/6aa048cc49058d78d20e694bbfcd3c419e20cf9a/demo.gif)
 
 ## Dependency
 ```bash
