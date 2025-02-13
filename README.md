@@ -36,7 +36,7 @@ rosbag play [topic]
 ```
 
 ## Rusult
-```bash
+```
 ![示例图片](https://github.com/qfwang23/ALO/blob/6344fe3020307649a1af14d987aecd6d16ef071e/rmse.png)
 
 ![示例图片](https://github.com/qfwang23/ALO/blob/b20e13e008f5c0c39613f8e8ad7b2543110a44c5/fig3.png)
