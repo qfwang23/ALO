@@ -4,7 +4,7 @@
 ## Catalog
 - [Introduction](#Introduction)
 - [Demo](#Demo)
-- [Dependency](#Dependency)
+- [Dependence](#Dependence)
 - [Install](#Install)
 - [Rusult](#Rusult)
 - [Acknowledgements ](#Acknowledgements)
@@ -16,7 +16,7 @@ LiDAR captures environmental information to enable precise spatial localization 
 ## Demo
 ![示例图片](https://github.com/qfwang23/ALO/blob/6aa048cc49058d78d20e694bbfcd3c419e20cf9a/demo.gif)
 
-## Dependency
+## Dependence
 ```bash
 Ubuntu 18.04 or 20.04
 ROS Melodic（roscpp、std_msgs、sensor_msgs、geometry_msgs、pcl_ros）
