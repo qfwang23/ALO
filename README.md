@@ -29,9 +29,9 @@ Eigen ≥ 3.3.7
 ## Install
  
 ```bash
-git clone https://github.com/qfwang23/ALO.git
-cd ALO
+mkdir ALO
 mkdir src
+git clone https://github.com/qfwang23/ALO.git
 cd ..
 catkin_make
 source ./devel/setup.bash
