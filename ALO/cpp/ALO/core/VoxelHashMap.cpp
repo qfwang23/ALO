@@ -12,7 +12,6 @@
 #include <utility>
 #include <vector>
 
-// 定义结构体来存储返回的结果
 namespace {
 struct ResultTuple {
     ResultTuple(std::size_t n) {
