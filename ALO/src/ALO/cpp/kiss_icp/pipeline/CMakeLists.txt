@@ -1,5 +1,0 @@
-add_library(pipeline STATIC)
-add_library(kiss_icp::pipeline ALIAS pipeline)
-target_sources(pipeline PRIVATE KissICP.cpp)
-target_link_libraries(pipeline PUBLIC kiss_icp::core)
-set_global_target_properties(pipeline)
