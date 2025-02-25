@@ -34,7 +34,7 @@ cd ALO
 mkdir src
 cd ..
 catkin_make
-source  setup.bash
+source ./devel/setup.bash
 roslaunch  ALO ALO.launch
 rosbag play [topic]
 ```
