@@ -1,0 +1,5 @@
+add_library(pipeline STATIC)
+add_library(ALO::pipeline ALIAS pipeline)
+target_sources(pipeline PRIVATE ALO.cpp)
+target_link_libraries(pipeline PUBLIC ALO::core)
+set_global_target_properties(pipeline)
