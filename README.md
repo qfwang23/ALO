@@ -35,7 +35,7 @@ mkdir src
 cd ..
 catkin_make
 source  setup.bash
-roslaunch  odometry.launch
+roslaunch  ALO ALO.launch
 rosbag play [topic]
 ```
 
